@@ -1,5 +1,3 @@
-"""仓库根入口：与 `python -m intuition_physics_ml` 行为一致。"""
-
 from intuition_physics_ml.cli import main
 
 if __name__ == "__main__":

@@ -1,0 +1,13 @@
+# 模型02：小角度线性残差 θ_tt + (g/l) θ
+dataset_source: algorithm
+train_csv: data/raw/algorithm_prediction_data/ode_prediction_data.csv
+physics_mode: linear
+batch_size: 2048
+lr: 0.001
+epochs: 50
+lambda_data: 10.0
+lambda_physics: 0.1
+lambda_ic: 5.0
+seed: 42
+hidden_dim: 128
+n_hidden: 3
